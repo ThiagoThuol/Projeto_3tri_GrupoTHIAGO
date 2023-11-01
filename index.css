@@ -1,7 +1,7 @@
 body {
     color: white;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Comic, Helvetica, sans-serif;
 }
 
 ul {
@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #5BBE42;
+    color: #424abe;
 }
 
 .contact-form input{
