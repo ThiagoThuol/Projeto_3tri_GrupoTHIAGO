@@ -1,14 +1,82 @@
-Thiago Thumé Oliveira
-thiagothume@gmail.com
+<!DOCTYPE html>
+<html lang="en">
 
-Jorge Gabriel Stangerlin
-jgabriel.sta@gmail.com
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
 
-Guilherme Pereira dos Santos
-guilherme.p.santos2007@gmail.com
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="project.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
 
-Henrique Voltz Alfaro
-henriquealfaro3@gmail.com
-
-Lorenzo Neves dos Santos
-lonevessantos@gmail.com
+            <header class="center">
+                <div>
+                    <img src="./img/colegio_anchieta_frente_bx.jpg"></img>
+                </div>
+                <h1>Entre em contato!</h1>
+            </header>
+            <main>
+                <section>
+                    <h2>Thiago Thumé Oliveira</h2>
+                    <p>
+                        thiagothume@gmail.com
+                    </p>
+                </section>
+                <section>
+                    <h2>Jorge Gabriel Stangerlin</h2>
+                    <p>
+                        jgabriel.sta@gmail.com
+                    </p>
+                </section>
+                <section>
+                    <h2>Guilherme Pereira dos Santos</h2>
+                    <p>
+                        guilherme.p.santos2007@gmail.com
+                    </p>
+                </section>
+                <section>
+                    <h2>Henrique Voltz Alfaro</h2>
+                    <p>
+                        henriquealfaro3@gmail.com
+                    </p>
+                </section>
+                <section>
+                    <h2>Lorenzo Neves dos Santos</h2>
+                    <p>
+                        lonevessantos@gmail.com
+                    </p>
+                </section>
+            </main>
+            
+            
+            <form class="contact-form" action="colegioanchieta@colegioanchieta.g12.br" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit">Send</button>
+                <input type="hidden" name="_next" value="https://github.com/renatoveigamjprof/">
+                <input type="hidden" name="_subject" value="New submission!">
+            </form>
+        </div>
+    </body
